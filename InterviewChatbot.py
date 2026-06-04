@@ -11,7 +11,7 @@ GOOGLE_API_KEY=st.secrets["GOOGLE_API_KEY"]
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Create GenerativeModel instance
-model = genai.GenerativeModel('gemini-pro')
+model = genai.GenerativeModel('gemini-1.5-flash')
 
 
 # Function to generate interview questions and answers
